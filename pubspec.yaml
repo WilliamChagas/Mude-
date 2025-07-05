@@ -1,0 +1,27 @@
+name: mude
+description: Seu app de treinos com tema galáxia 💪🌌
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.0.15 # Aqui está a dependência adicionada
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
